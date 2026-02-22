@@ -99,24 +99,27 @@ a {
 }
 .aboutmeinfo {
   text-align: center;
+  display: block;
+  margin-left: 20%;
+  margin-right:20%;
 }
 
 /* PROJECTS */
-.projects-grid {
+.aboutme-grid {
   display: grid;
   gap: 2rem;
   padding: 1rem 2rem;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 }
 
-.project-card {
+.aboutme-card {
   background: var(--light-bg);
   border-radius: 12px;
   padding: 1.4rem;
   transition: transform 0.3s ease;
 }
 
-.project-card:hover {
+.aboutme-card:hover {
   transform: translateY(-5px);
   box-shadow: 0px 5px 15px rgba(0,208,255,0.3);
 }
@@ -157,7 +160,6 @@ a {
 }
 
 .skill-list {
-  background-color: red;
   padding: 1rem;
   border-radius: 9px;
   border: none;
