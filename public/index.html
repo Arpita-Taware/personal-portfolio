@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="logo">MyPortfolio</div>
+  <ul class="nav-links">
+    <li><a href="#hero">Home</a></li>
+    <li><a href="#projects">About me</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<section id="hero" class="hero-section">
+  <h1 class="hero-title">Hi, I'm <span>ARPITA TAWARE</span></h1>
+  <p class="hero-subtitle">Full-Stack Developer | Problem Solver | Creative Thinker</p>
+  <a href="#aboutme" class="btn hero-btn">About me</a>
+</section>
+
+<section id="aboutme" class="aboutme-section">
+  <h2 class="section-title">About Me</h2>
+  <p class="aboutmeinfo">I’m a Computer Engineering student focused on building modern and efficient web applications.<br>
+  I enjoy developing scalable systems and understanding how real-world applications <br>
+  are structured from frontend to backend. As a Full Stack Developer, I have built <br>
+  end-to-end projects that combine responsive user interfaces with strong backend <br>
+  logic and database management. I am passionate about writing clean, maintainable<br>
+  code and continuously improving my problem-solving skills. I’m always eager to <br>
+  learn new technologies, explore better development practices, and grow as a <br>
+  developer by working on practical, real-world projects.
+  </p>
+  
+  <div id="project-list" class="projects-grid"></div>
+</section>
+
+<section id="skills" class="skills-section">
+  <h2 class="section-title">My Skills</h2>
+  <div id="skill-list" class="skills-grid">
+    <div>
+      <p class="skill-header">FRONTEND</p>
+      <ul class="skill-frontend">
+        <li class="skill-list">Html</li>
+        <li class="skill-list">Css</li>
+        <li class="skill-list">Javascript</li>
+        <li class="skill-list">React.js</li>
+      </ul>
+    </div>
+    <div>
+      <p class="skill-header">BACKEND</p>
+      <ul class="skill-backend">
+        <li class="skill-list">Node.js</li>
+        <li class="skill-list">Express.js</li>
+        <li class="skill-list">MongoDB</li>
+      </ul>
+    </div>
+    <div>
+      <p class="skill-header">OTHER</p>
+      <ul class="skill-tools">
+        <li class="skill-list">Python</li>
+        <li class="skill-list">Power BI</li>
+        <li class="skill-list">C++</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact-section">
+  <h2 class="section-title">Get In Touch</h2>
+  <form id="contact-form" class="contact-form">
+    <input type="text" id="name" placeholder="Your Name" required>
+    <input type="email" id="email" placeholder="Your Email" required>
+    <textarea id="message" placeholder="Your Message" required></textarea>
+    <button type="submit" class="btn contact-btn">Send Message</button>
+  </form>
+</section>
+
+<footer class="footer">
+  <p>© 2026 Arpita Taware | All Rights Reserved</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
