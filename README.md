@@ -20,7 +20,7 @@ It displays projects and skills dynamically and stores contact form messages in 
 - Frontend: HTML, CSS, JavaScript
 - Backend: Node.js, Express.js
 - Database: MongoDB Atlas
-- Tools: Git, Nodemon, Dotenv
+- Tools: Git
 
 ---
 
