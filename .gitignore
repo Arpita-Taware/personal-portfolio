@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Environment Variables
+.env
+backend/.env
+frontend/.env
+
+# Logs
+npm-debug.log*
+
+# Build Files
+build/
+dist/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDE Files
+.vscode/
+.idea/
+
+# Postman
+*.postman_collection.json
+*.postman_environment.json
+postman/
